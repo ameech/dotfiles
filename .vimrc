@@ -68,3 +68,7 @@ noremap <Right> <NOP>
 imap jk <Esc>   " Mapping JK to Esc to save time
 map <C-n> :NERDTreeToggle<CR>   " Adds a toggle to open NERDTree
 let g:user_zen_expandabbr_key = '<c-e>'    " Changes the zencoding expand shortcut
+
+"" CtrlP Settings
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
