@@ -14,6 +14,8 @@ Bundle 'itchyny/lightline.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdtree'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Bundle 'kana/vim-scratch'
+Bundle 'Valloric/YouCompleteMe'
 
 " Lightline Configuration
 set ls=2
@@ -26,6 +28,7 @@ set encoding=utf-8
 filetype plugin indent on
 :syntax on
 colorscheme Tomorrow-Night-Bright
+set cursorline
 
 " Tabs and spaces
 set expandtab
@@ -64,6 +67,10 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
+inoremap <Up> <nop>
+inoremap <Down> <nop>
+inoremap <Left> <nop>
+inoremap <Right> <nop>
 
 " Searching
 set hlsearch
