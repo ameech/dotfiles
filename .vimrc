@@ -14,8 +14,8 @@ Bundle 'itchyny/lightline.vim'
 Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/nerdtree'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-Bundle 'kana/vim-scratch'
-Bundle 'Valloric/YouCompleteMe'
+" Bundle 'Valloric/YouCompleteMe'
+Bundle 'tomtom/tcomment_vim'
 
 " Lightline Configuration
 set ls=2
@@ -37,7 +37,7 @@ set softtabstop=4
 set shiftwidth=4
 set nowrap
 set backspace=indent,eol,start
-set textwidth=80
+set textwidth=0
 set colorcolumn=+1
 
 " Line numbers
@@ -63,14 +63,10 @@ inoremap jk <Esc>
 inoremap <Esc> <nop>
 
 " Remap arrow keys
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
 
 " Searching
 set hlsearch
