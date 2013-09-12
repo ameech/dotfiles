@@ -16,6 +16,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 " Bundle 'Valloric/YouCompleteMe'
 Bundle 'tomtom/tcomment_vim'
+Bundle 'groenewege/vim-less'
 
 " Lightline Configuration
 set ls=2
