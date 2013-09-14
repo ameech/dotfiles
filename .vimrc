@@ -72,3 +72,8 @@ let g:user_zen_expandabbr_key = '<c-e>'    " Changes the zencoding expand shortc
 "" CtrlP Settings
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+"" Ubuntu Fix
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
